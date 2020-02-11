@@ -1,2 +1,2 @@
-# inflag
+# Inflag
 INFLAG - ACADEMIC CLUB (INFNET)
