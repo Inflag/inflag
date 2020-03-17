@@ -51,6 +51,7 @@
           <li><a href="#course">Cursos</a></li>
           <!--li><a href="#supporters">Sponsors</a></li-->
           <li><a href="#contact">Contatos</a></li>
+          <li><a href="#subscribe">Participar</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -90,7 +91,8 @@
           </div>
           <div class="col-lg-3">
             <h3>Quando</h3>
-            <p>Sabados<br>Das 08:00 até 12:00</p>
+            <p>Sábados<br>Das 08:00 até 12:00 - Presencial</p>
+            <p>Terças<br>Das 20:00 até 22:00 - Online</p>
           </div>
         </div>
     </section>
@@ -102,21 +104,20 @@
       <div class="container">
         <div class="section-header">
           <h2>Capture the Flag</h2>
-          <p>Entenda o conceito de capture the flag.</p>
+          <p>Surpreendesse com o conteúdo do capture the flag</p>
         </div>
 
         <div class="row">
-          <div class="col-md-3">
-            <img src="img/speakers/flag.png" alt="Speaker 1" class="img-fluid w-75">
+          <div class="col-md-4">
+            <img src="img/hack/flag.png" alt="Speaker 1" class="img-fluid w-50">
           </div>
 
-          <div class="col-md-9">
+          <div class="col-md-8">
             <div class="details">
-              <!--h2>CTF</h2-->
              <div class="row">
           <div class="col-lg-6">
             <h3>O que é CTF?</h3>
-            <p class="changeTypeClass">O CTF (Capture the Flag). No âmbito da informática, são competições que envolvem diversas competências dos 			profissionais, estudantes, entusiastas para a resolução de desafios relacionados à infosec (segurança da informação),
+            <p class="changeTypeClass">O CTF (Capture the Flag). No âmbito da informática, são competições que envolvem diversas competências dos profissionais, estudantes, entusiastas para a resolução de desafios relacionados à infosec (segurança da informação),
 		com o objetivo de capturar a bandeira (normalmente um código) e pontuar.</p>
           </div>
           <div class="col-lg-6">
@@ -754,7 +755,7 @@
 
         <div class="section-header">
           <h2> Cursos </h2>
-          <p> Modulos teoricos e praticos </p>
+          <p> Conteúdo da pratico capture de flag </p>
         </div>
 
         <div class="row justify-content-center" ng-controller="myCurser">
@@ -762,78 +763,64 @@
               <ul id="course-list">
 
                 <li>
-                  <a data-toggle="collapse" class="collapsed" href="#course1"> Linux - Open source <i class="fa fa-minus-circle"></i></a>
+                  <a data-toggle="collapse" class="collapsed" href="#course1"> Linux - (Kali Linux) <i class="fa fa-minus-circle"></i></a>
                   <div id="course1" class="collapse" data-parent="#course-list">
                     <p>
-                        Conhecendo o mundo open source, instalação, configuração e reparos, descompricando o sistema operacional mais temido pelos os usuários.
-                        Conhecimento e tecnicas no terminal unix.
+                       Conhecendo o sistema operacional linux atravez do Kali Linux.
                     </p>
                   </div>
                 </li>
 
                 <li>
-                  <a data-toggle="collapse" href="#course2" class="collapsed"> Crypto (Criptografia) <i class="fa fa-minus-circle"></i></a>
+                  <a data-toggle="collapse" href="#course2" class="collapsed"> Ferramentas do Kali Linux <i class="fa fa-minus-circle"></i></a>
                   <div id="course2" class="collapse" data-parent="#course-list">
                     <p>
-                      Conceito de segurança. Pilares da segurança da informação, conhecendo criptografica.
+                      Conhecendo algumas ferramentas no Kali Linux.
                     </p>
                   </div>
                 </li>
 
                 <li>
-                  <a data-toggle="collapse" href="#course3" class="collapsed"> Networking (Redes) <i class="fa fa-minus-circle"></i></a>
+                  <a data-toggle="collapse" href="#course3" class="collapsed"> Assembly <i class="fa fa-minus-circle"></i></a>
                   <div id="course3" class="collapse" data-parent="#course-list">
                     <p>
-                      Conhecendo a rede...
+                      Conhecimento de Assembly para engenharia reversar.
                     </p>
                   </div>
                 </li>
 
                 <li>
-                  <a data-toggle="collapse" href="#course4" class="collapsed"> Web hacking <i class="fa fa-minus-circle"></i></a>
+                  <a data-toggle="collapse" href="#course4" class="collapsed"> Criptografia (Python) <i class="fa fa-minus-circle"></i></a>
                   <div id="course4" class="collapse" data-parent="#course-list">
+                    <p>
+                      Conhecendo criptografia baseada com Python.
+                    </p>
+                  </div>
+                </li>
+ 		<li>
+                  <a data-toggle="collapse" href="#course5" class="collapsed"> Web hacking <i class="fa fa-minus-circle"></i></a>
+                  <div id="course5" class="collapse" data-parent="#course-list">
                     <p>
                       Conhecendo maneiras de hackear a web.
                     </p>
                   </div>
                 </li>
-
-                <li>
-                  <a data-toggle="collapse" href="#course5" class="collapsed"> Reversing (Engenharia Reversa), <i class="fa fa-minus-circle"></i></a>
-                  <div id="course5" class="collapse" data-parent="#course-list">
-                    <p>
-                        Tecnica de Engenharia reversa
-                    </p>
-                  </div>
-                </li>
-
-                <li>
-                  <a data-toggle="collapse" href="#course6" class="collapsed"> PPC - Professional Proramming and Coding (Programação) <i class="fa fa-minus-circle"></i></a>
+		<li>
+                  <a data-toggle="collapse" href="#course6" class="collapsed"> Pwnables | Exploitation (Exploração de binários) <i class="fa fa-minus-circle"></i></a>
                   <div id="course6" class="collapse" data-parent="#course-list">
-                    <p>
-                      Realizando pequeno script com python.
-                    </p>
-                  </div>
-                </li>
-
-                <li>
-                  <a data-toggle="collapse" href="#course7" class="collapsed"> Pwnables | Exploitation (Exploração de binários) <i class="fa fa-minus-circle"></i></a>
-                  <div id="course7" class="collapse" data-parent="#course-list">
                     <p>
                       Exploração de binários
                     </p>
                   </div>
                 </li>
-
 		<li>
                   <a data-toggle="collapse" href="#course8" class="collapsed"> Miscellaneous (Diversos) <i class="fa fa-minus-circle"></i></a>
                   <div id="course8" class="collapse" data-parent="#course-list">
                     <p>
-                      Tecnica de invasão de wifi?
+                      conteúdo surpresa pode surgir a qualquer momento, fica ligado!
                     </p>
                   </div>
                 </li>
-
               </ul>
           </div>
         </div>
@@ -848,7 +835,7 @@
     <section id="subscribe">
       <div class="container wow fadeInUp">
 	<div class="section-header">
-	  <h2 class="text-center">Recrutamento</h2>
+	  <h2 class="text-center"> Quero fazer parte! </h2>
         </div>
         <div class="row">
 	   <p>  </p>
@@ -940,9 +927,9 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-info">
-            <img src="img/logo/1.png" alt="TheEvenet">
+            <img src="img/logo/1.png" alt="INFLAG">
 		<br/>
-	    <a href="img/qrcode1.png"><img src="img/qrcode1.png" alt="QR Code" /></a>
+	    <a href="img/hack/qrcode1.png"><img src="img/hack/qrcode1.png" alt="QR Code" /></a>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
@@ -953,6 +940,7 @@
               <!--li><i class="fa fa-angle-right"></i> <a href="#event">Eventos</a></li-->
               <li><i class="fa fa-angle-right"></i> <a href="#gallery">Galeria</a></li>
               <li><i class="fa fa-angle-right"></i> <a href="#course">Cursos</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#subscribe">Participar</a></li>
             </ul>
           </div>
 
@@ -960,10 +948,11 @@
             <h4>INFNET Links</h4>
             <ul>
               <li><i class="fa fa-angle-right"></i> <a href="#intro">Home</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">INFNET</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Graduação INFNET</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">PÓS INFNET</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">EAD INFNET</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="https://www.infnet.edu.br/infnet/">INFNET</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="https://www.infnet.edu.br/esti/" title="Escola Superior Tecnologia da Informação" alt="Escola Superior Tecnologia da Informação">Graduação ESTI</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="https://negocios.infnet.edu.br/" title="Escola de Négocios" alt="Escola de Négocios">Graduação Négocios</a></li>
+<li><i class="fa fa-angle-right"></i> <a href="https://www.infnet.edu.br/infnet/" title="Escola de Comunicação e Design Digital">Graduação ECDD</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="https://ead.infnet.edu.br/" title="Ensino a distância INFNET">EAD INFNET</a></li>
             </ul>
           </div>
 
@@ -979,11 +968,11 @@
             </p>
 
             <div class="social-links">
-              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              <a href="https://www.twitter.com/inflagacademic" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.facebook.com/inflagacademic" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.instagram.com/inflagacademic" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.youtube.com/inflagacademic" class="youtube"><i class="fa fa-youtube"></i></a>
+              <a href="https://www.linkedin.com/inflagacademic" class="linkedin"><i class="fa fa-linkedin"></i></a>
             </div>
 
           </div>
